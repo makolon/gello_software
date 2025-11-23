@@ -45,7 +45,7 @@ class DynamixelRobotConfig:
 
 PORT_CONFIG_MAP: Dict[str, DynamixelRobotConfig] = {
     # xArm
-    "/dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FT3M9NVB-if00-port0": DynamixelRobotConfig(
+    "/dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FT8ISUI4-if00-port0": DynamixelRobotConfig(
         joint_ids=(1, 2, 3, 4, 5, 6, 7),
         joint_offsets=(
             3 * np.pi / 2,

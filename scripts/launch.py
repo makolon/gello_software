@@ -25,6 +25,8 @@ def run_docker_container():
         "--net=host",
         "--volume",
         "/dev/serial/by-id/:/dev/serial/by-id/",
+        "--volume",
+        "/dev/ttyUSB0/:/dev/ttyUSB0/",
         "-it",
         "gello:latest",
         "bash",
